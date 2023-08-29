@@ -1,0 +1,13 @@
+.footer{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer h3{
+    text-align: center;
+    font-size: 30px;
+}

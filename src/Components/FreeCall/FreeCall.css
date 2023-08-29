@@ -1,0 +1,51 @@
+
+
+.schedule-call-main-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.schedule-call-content-div{
+    width: 700px;
+}
+
+.schedule-call-para-2 {
+    margin-top: 30px;
+}
+
+
+.audit-perfect-for{
+    font-size: 25px;
+}
+.audit-perfect-for-point{
+   display: flex;
+   margin-top: 20px;
+}
+
+.audit-perfect-for-point img{
+    width: 20px;
+    height: 20px;
+}
+
+.check-icon-div{
+    padding-top: 8px;
+    margin-right: 10px;
+}
+
+.schedule-call-main-div p{
+    font-size: 20px;
+}
+
+.free-call-minutes{
+    font-size: 40px;
+    margin-top: 0;
+
+}
+
+.schedule-call-with-sales{
+    font-size: 26px;
+    margin-bottom: 0;
+}

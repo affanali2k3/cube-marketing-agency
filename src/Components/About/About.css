@@ -1,0 +1,45 @@
+
+.about-main-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.about-main-div p{
+   font-size: 20px;
+}
+.about-main-div h2{
+   font-size: 40px;
+}
+.about-main-div h3{
+   font-size: 40px;
+   margin-bottom    : 0;
+}
+
+.about-button-div{
+    margin-top: 40px;
+}
+
+
+
+.about-stats{
+    margin-right: 200px;
+    /* display: flex; */
+}
+
+
+
+.about-content p{
+    width: 400px;
+}
+
+
+@media screen and (max-width: 620px) {
+
+    .about-content p{
+        width: 300px;
+    }
+    
+    
+}
