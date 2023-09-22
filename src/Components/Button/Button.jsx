@@ -1,16 +1,17 @@
 import React from "react";
+import './Button.css';
 
-export const Button = ({ color, text, }) => {
-    const buttonStyle = {
-        color: color,
-        backgroundColor: '#e8f369',
-        border: `2px solid ${color}`,
-        fontSize: '20px',
-        borderRadius: '9px',
-        display: 'inline-block',
-        padding: '20px',
-    }
+export const Button = ({ mainText, subText, style}) => {
+
     return (
-        <div className="outline-button" style={buttonStyle}>{text}</div>
-    )
+<button style={style} class="button-82-pushable" role="button">
+  <span class="button-82-shadow"></span>
+  <span class="button-82-edge"></span>
+  <span class="button-82-front text">
+    <p className="main-button-text">{mainText}</p>
+    <p className="sub-button-text">{subText}</p>
+  </span>
+</button>    )
+
+
 }

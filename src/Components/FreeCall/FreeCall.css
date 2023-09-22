@@ -19,6 +19,7 @@
 
 .audit-perfect-for{
     font-size: 25px;
+    color: #f0003c;
 }
 .audit-perfect-for-point{
    display: flex;
@@ -41,7 +42,9 @@
 
 .free-call-minutes{
     font-size: 40px;
+    font-weight: bold;
     margin-top: 0;
+    color: #f0003c;
 
 }
 

@@ -7,44 +7,37 @@ export const FreeCall = () => {
         <div className='schedule-call-main-div'>
             <div className="schedule-call-content-div">
                 <img alt=''></img>
-                <h3 className='schedule-call-with-sales'>SCHEDULE YOUR CALL WITH DANY</h3>
+                <h3 className='schedule-call-with-sales'>SCHEDULE YOUR CALL</h3>
                 <h3 className='free-call-minutes'>Free 15-Minute Demo Call</h3>
-                <p>By the end of this Audit call, you will have a clear understanding of the next steps you can t
-                    ake for your business to start generating consistent and reliable
-                    results online with Funnels & Paid Advertising.</p>
-                <p className='schedule-call-para-2'>Find a time on Dany’s calendar to schedule your call today and we look forward to speaking to you soon!</p>
+                <p>You will have a clear knowledge of the next steps you need to take for your company to start producing reliable results online using funnels and paid advertising at the end of this audit call.</p>
+                <p className='schedule-call-para-2'>To book your call, check for a slot on Sufyan's calendar right now. We hope to chat with you soon.</p>
 
                 <h3 className='audit-perfect-for'>THIS AUDIT CALL IS PERFECT FOR:</h3>
                 <div className='audit-perfect-for-point'>
                     <div className='check-icon-div'>
                         <img src={checkIcon} alt=''></img>
                     </div>
-                    <p>Businesses looking to convert their current website into a high quality & streamlined funnel format.</p>
+                    <p>Companies looking to transform their present website into a top-notch, efficient funnel model.</p>
                 </div>
                 <div className='audit-perfect-for-point'>
                     <div className='check-icon-div'>
                         <img src={checkIcon} alt=''></img>
                     </div>
-                    <p>Businesses looking to take their offline business online</p>
+                    <p>Businesses attempting to expand online from their offline operations</p>
                 </div>
                 <div className='audit-perfect-for-point'>
                     <div className='check-icon-div'>
                         <img src={checkIcon} alt=''></img>
                     </div>
-                    <p>​Businesses looking for a reliable agency that can make their company a priority.</p>
+                    <p>Companies seeking for a dependable organization that will put their business first.</p>
                 </div>
                 <div className='audit-perfect-for-point'>
                     <div className='check-icon-div'>
                         <img src={checkIcon} alt=''></img>
                     </div>
-                    <p>Businesses looking to maximize their conversion rates & average order value.</p>
+                    <p>Businesses wishing to grasp how funnels and conversion rate optimization can boost their income potential.</p>
                 </div>
-                <div className='audit-perfect-for-point'>
-                    <div className='check-icon-div'>
-                        <img src={checkIcon} alt=''></img>
-                    </div>
-                    <p>​Businesses looking to understand their increased revenue potential with funnels & conversion rate optimization.</p>
-                </div>
+              
 
             </div>
 

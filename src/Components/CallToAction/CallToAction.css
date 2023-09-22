@@ -1,8 +1,8 @@
 .call-to-action-main-div{
     display: flex;
     justify-content: center;
-
-    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding-bottom: 40px;
 }
 
 .call-to-action-main-div h3{
@@ -10,9 +10,15 @@
     font-size: 40px;
 }
 
-.call-to-action-main-div p{
+.call-to-action-para{
     width: 400px;
     font-size: 20px;
+    padding: 20px;
+}
+
+.support-email{
+    /* color: #f0003c */
+    font-weight: bold;
 }
 
 .footer{
@@ -33,7 +39,6 @@
 }
 .call-to-action-and-footer{
     background-color: rgb(23, 23, 23);
-    padding-bottom: 40px;
     color: white;
 }
 

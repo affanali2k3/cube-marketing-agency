@@ -1,13 +1,25 @@
 
 .about-main-div{
     display: flex;
+   flex-direction:row;
     justify-content: center;
     flex-wrap: wrap;
     margin: 40px;
+    text-align: center;
 }
 
-.about-main-div p{
+/* .about-main-div p{
    font-size: 20px;
+} */
+.about-para-1{
+   font-size: 20px;
+}
+.about-para-2{
+   font-size: 20px;
+}
+
+.about-para-2{
+    margin-top: 40px;
 }
 .about-main-div h2{
    font-size: 40px;
@@ -30,8 +42,12 @@
 
 
 
-.about-content p{
-    width: 400px;
+.about-para-1   {
+    max-width: 400px;
+}
+
+.about-para-2   {
+    max-width: 400px;
 }
 
 

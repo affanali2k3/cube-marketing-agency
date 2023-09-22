@@ -2,6 +2,7 @@
 
   .testimonial-cards-main{
     display: flex;
+    gap: 120px;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -27,11 +28,59 @@
     background-color: white;
     padding: 20px;
     width: 400px;
-    border-radius: 20px;
-    box-shadow: 0 0 15px -6px black;
+    border-radius: 5px;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
     margin: 10px;
   }
   
+  .testimonial-container{
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    overflow: hidden;
+
+  }
+
+  .testimonial-upper{
+    padding: 20px;
+
+  }
+
+.testimonial-sentences{
+  max-width: 300px;
+}
+.testimonial-image{
+  width: 80px;
+  height: 80px;
+  display: inline;
+  border-radius: 20px;
+}
+.checked {
+  color: orange;
+}
+
+.testimonial-rating{
+  margin-bottom: 20px;
+}
+.testimonial-details{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  background: #8FF222;
+}
+
+.bio{
+  display: inline;
+
+}
+
+.bio h3{
+  margin: 0;
+}
+
+.bio p{
+  font-size: 12px;
+}
   .testimonialHeader {
     padding: 2rem;
     display: flex;
@@ -70,6 +119,7 @@
   
   .testimonialBodyText {
     font-size: 1rem;
+    display: inline;
   }
   
   p {

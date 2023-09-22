@@ -3,9 +3,15 @@ import { Link } from 'react-scroll'
 import './Navbar.css'
 
 export const Navbar = () => {
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth', // This makes the scroll smooth
+        });
+      };
     return (
-        <div className='navbar-main-div'>
-            <p className='navbar-logo-name'>Cube Marketing</p>
+        <div className='navbar-main-div' onClick={scrollToTop}>
+            <p className='navbar-logo-name'>Cube Media </p>
             <ul className='navbar-list'>
 
                 <li><Link
@@ -49,8 +55,7 @@ export const Navbar = () => {
                 >Testimonials
                 </Link></li>
             </ul>
-            <div className='navbar-signup-button'>
-            </div>
+           
             <div class="toggle-menu">&#9776;</div>
 
         </div>
