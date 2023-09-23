@@ -7,7 +7,8 @@ export const Footer = () => {
         <div className='footer'>
             <div>
                 <h3>Cube Media Marketing</h3>
-                <p>All Rights Reserved | 2023</p>
+                <p>© 2023 Cube Media Marketing. All rights reserved.
+</p>
             </div>
          
         </div> <div className="copyright-para-div">  <p className='copyright-para'>
@@ -17,6 +18,6 @@ You may view and use the content on this website for your personal, non-commerci
 <p>
 Cube Media Marketing is a registered trademark. All other trademarks, service marks, and trade names contained in this site are the properties of their respective owners.
 </p><p>
-For inquiries, please contact [support@cubemediamarketing.com].</p></div></div>
+For inquiries, please contact support@cubemediamarketing.com.</p></div></div>
     )
 }
