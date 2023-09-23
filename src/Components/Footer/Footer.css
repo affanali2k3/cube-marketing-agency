@@ -1,13 +1,29 @@
 .footer{
-    background-color: rgb(23, 23, 23);
-    color: white;
-    padding-top: 80px;
-    padding-bottom: 80px;
+
     display: flex;
     text-align: center;
     justify-content: center;
 }
 
+.footer-main-div{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.copyright-para-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.copyright-para-div p{
+    max-width: 900px;
+
+}
 .footer h3{
     text-align: center;
     font-size: 30px;
