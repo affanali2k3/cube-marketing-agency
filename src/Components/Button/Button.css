@@ -18,6 +18,12 @@
 .main-button-text{
   font-size: 22px;
   font-weight: bold;
+  margin: 0;
+}
+
+.sub-button-text{
+font-size: 14px;
+  margin: 0;
 }
 
 .button-82-shadow {

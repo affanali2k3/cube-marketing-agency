@@ -31,12 +31,19 @@
     height: 20px;
 }
 
+.schedule-call-para-1{
+    font-size: 20px;
+}
+.schedule-call-para-2{
+    font-size: 20px;
+}
+
 .check-icon-div{
-    padding-top: 8px;
+    padding-top: 25px;
     margin-right: 10px;
 }
 
-.schedule-call-main-div p{
+.audit-perfect-for-point p{
     font-size: 20px;
 }
 

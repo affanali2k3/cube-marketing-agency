@@ -45,7 +45,7 @@ padding-top: 200px;
 }
 
 .home-boosting-business{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .home-content-para{
@@ -69,9 +69,11 @@ padding-top: 200px;
     .image-div{
         display: none;
     }
+    .home-main-div{
+        height: 940px;
+    }
 
 }
-
 @media screen and (max-width: 620px) {
 
     .home-boosting-business{
@@ -79,10 +81,7 @@ padding-top: 200px;
         margin-left: 30px;
     }
 
-    .home-main-div{
-        height: 800px;
-    }
-
+ 
     .image-div{
         display: none;
         margin: -100px;

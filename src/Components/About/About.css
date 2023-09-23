@@ -18,6 +18,10 @@
    font-size: 20px;
 }
 
+.about-stats-after{
+    display: none;
+}
+
 .about-para-2{
     margin-top: 40px;
 }
@@ -37,6 +41,9 @@
 
 .about-stats{
     margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     /* display: flex; */
 }
 
@@ -58,4 +65,22 @@
     }
     
     
+}
+
+
+
+@media screen and (max-width: 815px) {
+    .about-main-div{
+       flex-direction: row-reverse;
+
+    }
+
+    .about-stats-after{
+        display: block;
+        padding: 40px;
+    }
+    .about-stats{
+        display: none;
+    }
+
 }
