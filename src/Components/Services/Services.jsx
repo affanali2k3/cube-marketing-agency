@@ -20,7 +20,7 @@ export const Services = () => {
                 </div>
                 <div className='one-service'>
                     <div>
-                        <h4>Meta Ads<br></br>(Facebook & INSTA) </h4>
+                        <h4>Meta Ads<br></br>(Facebook & Insta) </h4>
 
                         <p>Connect with your target audience where they spend their time online – on Facebook and Instagram. Our Meta Ads service crafts engaging campaigns that resonate with your audience's interests and behaviors. We utilize the robust targeting options and dynamic ad formats to ensure your brand gets noticed and remembered.
 </p>

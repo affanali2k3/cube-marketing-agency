@@ -18,7 +18,7 @@ export const Home = () => {
                     
         <Link href="#" onClick={() => window.Calendly.initPopupWidget({url:'https://calendly.com/abrahmwhyite'})}>
 
-                <Button style={{ transform: 'translateX(8%)' }} mainText={'Speak To Our Team Today'} subText={'Schedule Your FREE Audit Call Now'} color={'black'} text={'Speak to our team today'} /></Link>
+                <Button  mainText={'Speak To Our Team Today'} subText={'Schedule Your FREE Audit Call Now'} color={'black'} text={'Speak to our team today'} /></Link>
                 </div>
             </div>
             <div className='image-div'>
