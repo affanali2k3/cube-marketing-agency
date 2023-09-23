@@ -13,7 +13,17 @@
     padding-left: 40px;
     padding-right: 40px;
 }
-
+.privacy-text{
+    display: inline;
+    cursor: pointer;
+}
+.privacy-text:hover{
+    color:#f0003c ;
+}
+.privacy-text{
+    display: flex;
+    justify-content: center;
+}
 .copyright-para-div{
     display: flex;
     flex-direction: column;
