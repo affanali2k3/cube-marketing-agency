@@ -46,6 +46,13 @@
 .navbar-list a:hover{
   color: #8FF222;
 }
+.nav-button{
+  width: 109px !important;
+  font-size: 10px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  /* height: 10px !important; */
+}
 
 .navbar-list li{
     display: inline;

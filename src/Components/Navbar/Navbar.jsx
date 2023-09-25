@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import './Navbar.css'
+import './NavButton.css'
+import { Button } from '../Button/Button';
 
 export const Navbar = () => {
     const scrollToTop = () => {
@@ -44,16 +46,13 @@ export const Navbar = () => {
                     activeClass='some-active-class'
                 >Services
                 </Link></li>
-                <li><Link
-                    to="testimonial-main-div"
-                    spy={true}
-                    smooth={true}
-
-                    duration={500}
-                    className='some-class'
-                    activeClass='some-active-class'
-                >Testimonials
-                </Link></li>
+                <li><Link href="#" onClick={() => window.Calendly.initPopupWidget({url:'https://calendly.com/abrahmwhyite'})}><button class="button-83-pushable nav-button" role="button">
+  <span class="button-83-shadow"></span>
+  <span class="button-83-edge"></span>
+  <span class="button-83-front text">
+    <p className="main-button-texet">Get Started</p>
+  </span>
+</button></Link></li>
             </ul>
            
             <div class="toggle-menu">&#9776;</div>
